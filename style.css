@@ -5,3 +5,10 @@
 html{
     font-family: 'Barlow', sans-serif;
 }
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
