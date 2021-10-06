@@ -35,7 +35,7 @@ header a{
     padding: 1rem;
     font-weight: bolder;
     background-color: #E8Eff2;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin-right: 1rem;
 }
 
@@ -73,7 +73,8 @@ header a{
     padding: 1rem;
     font-weight: bolder;
     background-color: #E8Eff2;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
 }
 
 .left-side .orange{
@@ -87,6 +88,50 @@ header a{
     flex-direction: row;
     
     
+}
+
+.right-side{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+   
+   
+}
+
+
+
+
+
+.mobilekeys{
+    width: 21rem;
+    border-top-left-radius:1rem ;
+    border-bottom-left-radius: 1rem ;
+   
+}
+
+.tabletkeys{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .section1{
+        
+        flex-direction: row;
+        justify-content: baseline;
+        
+    }
+
+    .mobilekeys{
+        display: none;
+    }
+
+    .tabletkeys{
+        display: block;
+        width: 20rem;
+        border-top-left-radius:1rem ;
+        border-bottom-left-radius: 1rem ;
+        height: 20rem;
+    }
 }
 
 
