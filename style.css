@@ -67,6 +67,28 @@ header a{
     color: #7B8BAD;
 }
 
+.left-side a{
+    text-decoration: none;
+    color: #162542;
+    padding: 1rem;
+    font-weight: bolder;
+    background-color: #E8Eff2;
+    border-radius: 1rem;
+}
+
+.left-side .orange{
+    background-color: #F16718 ;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
 
 
 
