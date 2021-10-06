@@ -12,8 +12,8 @@ html{
   gap: 20px;
   grid-template-areas:
     "header"
-    "nav"
-    "content"
+    "box1"
+    "box2"
     "sidebar"
     "ad"
     "footer";
@@ -24,8 +24,8 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-top: 1rem;
     grid-area: header;
 }
@@ -38,6 +38,4 @@ header a{
     background-color: #E8Eff2;
     border-radius: 1rem;
 }
-
-
 
