@@ -124,7 +124,7 @@ header a{
     width: 10rem;
 }
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
     .section1{
         
         flex-direction: row;
@@ -156,6 +156,8 @@ header a{
         background-color: red;
         border-radius: 1rem;
         margin-left: 2rem;
+      
+    
     }
 
     .section1{
@@ -163,6 +165,7 @@ header a{
         flex-direction: row;
        margin-top: 1rem;
        justify-content: space-around;
+     
 
         
     }
@@ -184,7 +187,7 @@ header a{
         width: 40rem;
         border-radius: 1rem;
     }
-}
+} */
 
 
 
