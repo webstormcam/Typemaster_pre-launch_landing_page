@@ -14,7 +14,7 @@ html{
    
 }
 
-header{
+/* header{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -122,7 +122,7 @@ header a{
     display: none;
     height: 10rem;
     width: 10rem;
-}
+} */
 
 /* @media screen and (min-width: 768px){
     .section1{
