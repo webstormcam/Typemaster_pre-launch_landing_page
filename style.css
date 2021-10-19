@@ -30,8 +30,8 @@ html{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
     margin-top: 1rem;
 }
 
@@ -46,6 +46,23 @@ html{
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
+
+
+header a{
+    text-decoration: none;
+    color: #162542;
+    padding: 1rem;
+    font-weight: bolder;
+    background-color: #E8Eff2;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+header img{
+    margin-left: 1rem;
+}
+
+
 
 /* header{
     display: flex;
