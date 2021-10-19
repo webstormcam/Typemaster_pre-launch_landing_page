@@ -116,10 +116,9 @@ header img{
     #first_section{
         display: grid;
         grid-template-columns: minmax(auto, 768px);
-        grid-template-rows: 1fr 300px;
         grid-gap: 60px;
-        grid-template-areas: "header"
-                            "image information";
+        grid-template-areas: "header header"
+                            "information image";
         
         
         
