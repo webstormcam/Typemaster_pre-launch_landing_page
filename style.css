@@ -119,6 +119,7 @@ header img{
         grid-gap: 60px;
         grid-template-areas: "header header"
                             "information image";
+            
         
         
         
