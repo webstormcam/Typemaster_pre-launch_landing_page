@@ -18,6 +18,7 @@ html{
     display: grid;
     grid-template-columns: minmax(auto, 425px);
     grid-template-rows: 1fr 300px 300px;
+    grid-gap: 60px;
     grid-template-areas: "header"
                           "information"
                           "image"  ;
@@ -35,6 +36,20 @@ html{
     margin-top: 1rem;
 }
 
+header a{
+    text-decoration: none;
+    color: #162542;
+    padding: 1rem;
+    font-weight: bolder;
+    background-color: #E8Eff2;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+header img{
+    margin-left: 1rem;
+}
+
 .image-top{
     grid-area: image;
     display: flex;
@@ -48,18 +63,51 @@ html{
 }
 
 
-header a{
+
+
+.left-side{
+    grid-area: information;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    max-width: 399px;
+}
+
+.left-side h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #162542;
+}
+
+.left-side p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    color: #7B8BAD;
+}
+
+.left-side a{
     text-decoration: none;
     color: #162542;
     padding: 1rem;
     font-weight: bolder;
     background-color: #E8Eff2;
     border-radius: 0.5rem;
-    margin-right: 1rem;
+    font-size: 0.8rem;
 }
 
-header img{
-    margin-left: 1rem;
+.left-side .orange{
+    background-color: #F16718 ;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    
+    
 }
 
 
