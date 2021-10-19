@@ -16,7 +16,7 @@ html{
 
 #first_section{
     display: grid;
-    grid-template-columns: minmax(auto, 399px);
+    grid-template-columns: minmax(auto, 425px);
     grid-template-rows: 1fr 300px 300px;
     grid-template-areas: "header"
                           "information"
@@ -32,6 +32,19 @@ html{
     align-items: center;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.image-top{
+    grid-area: image;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toppy-image{
+    width: 20rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 /* header{
