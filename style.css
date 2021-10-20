@@ -6,6 +6,8 @@ html{
     font-family: 'Barlow', sans-serif;
 }
 
+
+
 #content{
     display: flex;
     flex-direction: column;
@@ -54,7 +56,9 @@ header img{
                           "information"
                           "image"  ;
                           margin-top: 3rem;
-    
+
+                          
+    overflow-x: hidden;
     
 }
 
@@ -135,6 +139,7 @@ header img{
         grid-gap: 70px;
         grid-template-areas: "information image";
         max-width: 1024px;
+        overflow-x: hidden;
             
         
         
@@ -169,10 +174,7 @@ header img{
         margin-top: 2rem;
     }
 
-    .small-grey{
-
-        display: none;
-    }
+   
 
     
 
@@ -187,8 +189,7 @@ header img{
         grid-gap: 30px;
         grid-template-areas: "information image .";
         max-width: 1440px;
-        position: relative;
-        /* overflow: hidden; */
+        overflow-x: visible;
         
         
         
@@ -207,7 +208,7 @@ header img{
         background-size: cover;
        border-radius: 1rem;
        position: relative;
-     overflow:hidden
+     
        
        
     }
@@ -227,13 +228,27 @@ header img{
         display: block;
         width: 15rem;
         height: 15rem;
-        background-color: red;
+        background-color: #c5cbce;
         position: absolute;
         top: 2rem;
-        right: -15rem;
+        right: -17rem;
         border-radius: 1rem;
        
         
+    }
+
+    .left-side h1{
+        font-size: 4rem;
+    }
+    
+    .left-side p{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .left-side a{
+       
+        font-size: 1rem;
     }
 }
 
