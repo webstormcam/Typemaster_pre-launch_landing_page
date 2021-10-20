@@ -173,10 +173,10 @@ background-image: url('imgs/tablet/image-keyboard.jpg');
 
     #first_section{
         display: grid;
-        grid-template-columns: minmax(auto, 720px);
-        grid-gap: 40px;
-        grid-template-areas: "header header"
-                            "information image";
+        grid-template-columns: minmax(auto, 720px) 1fr 1fr;
+        grid-gap:40px 0px;
+        grid-template-areas: "header header header"
+                            "information image .";
         max-width: 1440px;
             
         
