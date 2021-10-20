@@ -37,6 +37,7 @@ html{
     margin-top: 1rem;
 }
 
+
 header a{
     text-decoration: none;
     color: #162542;
@@ -168,11 +169,11 @@ background-image: url('imgs/tablet/image-keyboard.jpg');
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1440px){
 
     #first_section{
         display: grid;
-        grid-template-columns: minmax(auto, 1440px);
+        grid-template-columns: minmax(auto, 720px);
         grid-gap: 40px;
         grid-template-areas: "header header"
                             "information image";
@@ -184,6 +185,7 @@ background-image: url('imgs/tablet/image-keyboard.jpg');
                         
     
     }
+
 
 }
 
