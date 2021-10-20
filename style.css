@@ -18,6 +18,8 @@ html{
 
 
 
+
+
 .main-head{
    
     display: flex;
@@ -52,6 +54,7 @@ header img{
                           "information"
                           "image"  ;
                           margin-top: 3rem;
+    
     
 }
 
@@ -118,6 +121,11 @@ header img{
     
 }
 
+.small-grey{
+
+    display: none;
+}
+
 
 
  @media screen and (min-width: 768px){
@@ -126,7 +134,7 @@ header img{
         grid-template-columns:  1fr 337px;
         grid-gap: 70px;
         grid-template-areas: "information image";
-        max-width: 768px;
+        max-width: 1024px;
             
         
         
@@ -152,7 +160,7 @@ header img{
         background-size: cover;
         border-bottom-left-radius: 1rem;
         border-top-left-radius: 1rem;
-        align-self: flex-end;
+
 
     }
 
@@ -161,9 +169,69 @@ header img{
         margin-top: 2rem;
     }
 
+    .small-grey{
+
+        display: none;
+    }
+
     
 
-   
+}
+
+@media screen and (min-width: 1440px){
+
+
+    .wrapper{
+        display: grid;
+        grid-template-columns:  40rem 30rem 20%;
+        grid-gap: 30px;
+        grid-template-areas: "information image .";
+        max-width: 1440px;
+            
+        
+        
+        
+                        
+    
+    }
+
+
+    .image-top{
+        grid-area: image;
+        display: flex;
+        background-image: url('imgs/desktop/image-keyboard.jpg');
+        width: auto;
+        height: 27rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+       border-radius: 1rem;
+       position: relative;
+       overflow-x: hidden; 
+       
+    }
+
+    .left-side{
+        padding: 1.5rem;
+        margin-top: 2rem;
+        max-width: 550px;
+    }
+
+
+    
+
+
+    .small-grey{
+
+        display: block;
+        width: 15rem;
+        height: 15rem;
+        background-color: red;
+        position: absolute;
+        top: 2rem;
+        right: -15rem;
+        
+    }
+}
 
 
     
