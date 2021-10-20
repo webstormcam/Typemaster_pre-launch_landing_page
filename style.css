@@ -112,11 +112,15 @@ header img{
     
 }
 
+.medium{
+    display: none;
+}
+
 @media screen and (min-width: 768px){
     #first_section{
         display: grid;
         grid-template-columns: minmax(auto, 768px);
-        grid-gap: 60px;
+        grid-gap: 40px;
         grid-template-areas: "header header"
                             "information image";
         max-width: 768px;
@@ -128,7 +132,59 @@ header img{
     
     }
 
+
+
+    .image-top{
+        grid-area: image;
+        display: flex;
+        justify-content: flex-end;
+background-image: url('imgs/tablet/image-keyboard.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 325px;
+        height: 30rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+
+
+    .left-side{
+
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+    
+
+    .small{
+        display: none;
+    }
+
+
+    
+
    
+}
+
+
+@media screen and (min-width: 768px){
+
+    #first_section{
+        display: grid;
+        grid-template-columns: minmax(auto, 1440px);
+        grid-gap: 40px;
+        grid-template-areas: "header header"
+                            "information image";
+        max-width: 1440px;
+            
+        
+        
+        
+                        
+    
+    }
+
 }
 
 
