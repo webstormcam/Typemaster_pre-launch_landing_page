@@ -16,18 +16,10 @@ html{
    
 }
 
-#first_section{
-    display: grid;
-    grid-gap: 60px;
-    grid-template-areas: "header"
-                          "information"
-                          "image"  ;
-    
 
-}
 
 .main-head{
-    grid-area: header;
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,6 +44,17 @@ header img{
     margin-left: 1rem;
 }
 
+.wrapper{
+    display: grid;
+    grid-gap: 70px;
+    grid-template-rows: 1fr 300px ;
+    grid-template-areas: 
+                          "information"
+                          "image"  ;
+                          margin-top: 3rem;
+    
+}
+
 .image-top{
     grid-area: image;
     display: flex;
@@ -64,6 +67,8 @@ header img{
     border-bottom-left-radius: 1rem;
     max-width: 399px;
 }
+
+
 
 
 
@@ -113,17 +118,14 @@ header img{
     
 }
 
-.medium{
-    display: none;
-}
 
-@media screen and (min-width: 768px){
-    #first_section{
+
+ @media screen and (min-width: 768px){
+    .wrapper{
         display: grid;
-        grid-template-columns: minmax(auto, 768px);
-        grid-gap: 40px;
-        grid-template-areas: "header header"
-                            "information image";
+        grid-template-columns:  1fr 1fr;
+        grid-gap: 70px;
+        grid-template-areas: "information image";
         max-width: 768px;
             
         
@@ -133,9 +135,44 @@ header img{
     
     }
 
+    .small{
+        display: none;
+    }
 
+    
 
     .image-top{
+        grid-area: image;
+        display: flex;
+        justify-content: flex-end;
+        background-image: url('imgs/tablet/image-keyboard.jpg');
+        width: auto;
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom-left-radius: 1rem;
+        border-top-left-radius: 1rem;
+        align-self: flex-end;
+
+    }
+
+    .left-side{
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    
+
+   
+
+
+    
+
+   
+
+
+
+    /* .image-top{
         grid-area: image;
         display: flex;
         justify-content: flex-end;
@@ -187,7 +224,7 @@ background-image: url('imgs/tablet/image-keyboard.jpg');
     }
 
 
-}
+} */
 
 
 
