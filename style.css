@@ -59,7 +59,6 @@ header img{
                           margin-top: 3rem;
 
                           
-    overflow-x: hidden;
     
 }
 
@@ -231,7 +230,7 @@ header img{
         height: 15rem;
         background-color: #c5cbce;
         position: absolute;
-        top: 2rem;
+       
         right: -17rem;
         border-radius: 1rem;
        
