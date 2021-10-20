@@ -123,7 +123,7 @@ header img{
  @media screen and (min-width: 768px){
     .wrapper{
         display: grid;
-        grid-template-columns:  1fr 1fr;
+        grid-template-columns:  1fr 330px;
         grid-gap: 70px;
         grid-template-areas: "information image";
         max-width: 768px;
