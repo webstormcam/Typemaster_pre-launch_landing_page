@@ -187,7 +187,8 @@ header img{
         grid-gap: 30px;
         grid-template-areas: "information image .";
         max-width: 1440px;
-            
+        position: relative;
+        /* overflow: hidden; */
         
         
         
@@ -206,7 +207,8 @@ header img{
         background-size: cover;
        border-radius: 1rem;
        position: relative;
-       overflow-x: hidden; 
+     overflow:hidden
+       
        
     }
 
@@ -229,6 +231,8 @@ header img{
         position: absolute;
         top: 2rem;
         right: -15rem;
+        border-radius: 1rem;
+       
         
     }
 }
