@@ -137,7 +137,7 @@ margin-top: 2rem;
 .middle-wrapper{
    
         display: grid;
-        grid-gap: 25px;
+        gap: 40px 25px;
         grid-template-columns: 25% 220px ;
         grid-template-rows: 200px 100px  ;
         grid-template-areas: 
@@ -192,6 +192,8 @@ flex-direction: column;
     font-size: 0.9rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    color: #7B8BAD;
+    line-height: 2rem;
 }
 
 
