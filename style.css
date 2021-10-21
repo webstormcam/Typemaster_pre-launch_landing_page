@@ -132,17 +132,19 @@ header img{
 
 #second_section{
 margin-top: 2rem;
+
 }
 
 .middle-wrapper{
    
         display: grid;
         gap: 40px 25px;
-        grid-template-columns: 25% 220px ;
-        grid-template-rows: 200px 100px  ;
+        grid-template-columns: 25% 220px 5% ;
+        grid-template-rows: 200px 400px  ;
         grid-template-areas: 
                               "image image2 ."
-                              "words  words words" ;
+                              "words words words" ;
+                              max-width: 399px;
     
                               
         
@@ -196,6 +198,16 @@ flex-direction: column;
     line-height: 2rem;
 }
 
+@media screen and (min-width:403px) and (max-width: 768px)    {
+    .image-1{
+        border-radius: 1rem;
+    }
+
+    .toppy-image{
+      border-radius: 1rem;
+    }
+}
+
 
 
 
@@ -208,7 +220,7 @@ flex-direction: column;
         grid-gap: 70px;
         grid-template-areas: "information image";
         max-width: 1024px;
-        overflow-x: hidden;
+        
             
         
         
@@ -259,7 +271,7 @@ flex-direction: column;
         grid-gap: 30px;
         grid-template-areas: "information image .";
         max-width: 1440px;
-        overflow-x: visible;
+        
         
         
         
