@@ -130,6 +130,40 @@ header img{
     display: none;
 }
 
+.middle-wrapper{
+   
+        display: grid;
+        grid-gap: 70px;
+        grid-template-columns: 100px 1fr ;
+        grid-template-rows: 200px 100px  ;
+        grid-template-areas: 
+                              "image image2"
+                              "words  words" ;
+    
+                              
+        
+    
+}
+
+.image-1{
+grid-area: image;
+background-image: url('imgs/mobile/image-phone-and-keyboard.jpg');
+width: auto;
+
+
+}
+
+.image-2{
+grid-area: image2;
+background-image: url('imgs/mobile/image-glass-and-keyboard.jpg');
+width: auto;
+
+}
+
+.words{
+grid-area: words;
+}
+
 
 
  @media screen and (min-width: 768px){
