@@ -138,10 +138,10 @@ margin-top: 2rem;
    
         display: grid;
         grid-gap: 25px;
-        grid-template-columns: 25% 220px 10% ;
+        grid-template-columns: 25% 220px ;
         grid-template-rows: 200px 100px  ;
         grid-template-areas: 
-                              "image image2 blank"
+                              "image image2 ."
                               "words  words words" ;
     
                               
@@ -175,7 +175,26 @@ background-size: cover;
 
 .words{
 grid-area: words;
+text-align: center;
+display: flex;
+flex-direction: column;
 }
+
+.words h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #162542;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+
+.words p{
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
 
 
 
