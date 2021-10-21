@@ -164,6 +164,14 @@ border-top-right-radius:1rem ;
 
 }
 
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(22, 89%, 52%, 0.70);
+    border-bottom-right-radius:1rem ;
+border-top-right-radius:1rem ;
+}
+
 .image-2{
 grid-area: image2;
 background-image: url('imgs/mobile/image-glass-and-keyboard.jpg');
@@ -204,6 +212,10 @@ flex-direction: column;
     }
 
     .toppy-image{
+      border-radius: 1rem;
+    }
+
+    .layer{
       border-radius: 1rem;
     }
 }
