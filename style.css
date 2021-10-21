@@ -267,6 +267,59 @@ flex-direction: column;
         margin-top: 2rem;
     }
 
+
+    .middle-wrapper{
+   
+        display: grid;
+        gap: 40px 25px;
+        grid-template-columns: 11rem 470px 5%;
+        grid-template-rows: 300px 200px  ;
+        grid-template-areas: 
+                              "image image2 ."
+                              "words words words" ;
+                              max-width: 1024px;
+                              padding: 1rem;
+    
+                              
+        
+    
+}
+
+.layer{
+    border-radius: 1rem;
+  }
+
+.image-1{
+    grid-area: image;
+    background-image: url('imgs/tablet/image-phone-and-keyboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: auto;
+    border-radius: 1rem;
+    
+    
+    }
+
+    .image-2{
+        grid-area: image2;
+        background-image: url('imgs/tablet/image-glass-and-keyboard.jpg');
+        width: auto;
+        border-radius: 1rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+        }
+
+        .words{
+           
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: left;
+            }
+
    
 
     
