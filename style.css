@@ -272,8 +272,8 @@ flex-direction: column;
     .middle-wrapper{
    
         display: grid;
-        gap: 40px 25px;
-        grid-template-columns: 11rem 470px 5%;
+        gap: 50px 30px;
+        grid-template-columns: 14rem 450px 5%;
         grid-template-rows: 300px 200px  ;
         grid-template-areas: 
                               "image image2 ."
