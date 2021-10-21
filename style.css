@@ -130,15 +130,19 @@ header img{
     display: none;
 }
 
+#second_section{
+margin-top: 2rem;
+}
+
 .middle-wrapper{
    
         display: grid;
-        grid-gap: 70px;
-        grid-template-columns: 100px 1fr ;
+        grid-gap: 25px;
+        grid-template-columns: 25% 220px 10% ;
         grid-template-rows: 200px 100px  ;
         grid-template-areas: 
-                              "image image2"
-                              "words  words" ;
+                              "image image2 blank"
+                              "words  words words" ;
     
                               
         
@@ -148,7 +152,12 @@ header img{
 .image-1{
 grid-area: image;
 background-image: url('imgs/mobile/image-phone-and-keyboard.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
 width: auto;
+border-bottom-right-radius:1rem ;
+border-top-right-radius:1rem ;
 
 
 }
@@ -157,6 +166,10 @@ width: auto;
 grid-area: image2;
 background-image: url('imgs/mobile/image-glass-and-keyboard.jpg');
 width: auto;
+border-radius: 1rem;
+background-repeat: no-repeat;
+background-size: cover;
+
 
 }
 
@@ -170,6 +183,7 @@ grid-area: words;
     .wrapper{
         display: grid;
         grid-template-columns:  1fr 337px;
+        grid-template-rows: 1fr;
         grid-gap: 70px;
         grid-template-areas: "information image";
         max-width: 1024px;
@@ -220,6 +234,7 @@ grid-area: words;
     .wrapper{
         display: grid;
         grid-template-columns:  40rem 30rem 20%;
+        grid-template-rows: 1fr;
         grid-gap: 30px;
         grid-template-areas: "information image .";
         max-width: 1440px;
