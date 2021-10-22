@@ -415,7 +415,7 @@ flex-direction: column;
    
         display: grid;
         gap: 50px 30px;
-        grid-template-columns: 350px 25rem 20rem;
+        grid-template-columns: 320px 27rem 20rem;
         grid-template-rows: 500px   ;
         grid-template-areas: 
                               "image image2 words";
@@ -433,6 +433,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: left;
     }
 
