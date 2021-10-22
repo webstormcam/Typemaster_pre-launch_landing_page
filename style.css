@@ -280,6 +280,7 @@ flex-direction: column;
                               "words words words" ;
                               max-width: 1024px;
                               padding: 1rem;
+                              justify-content: center;
     
                               
         
