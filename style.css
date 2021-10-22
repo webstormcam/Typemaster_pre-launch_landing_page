@@ -416,7 +416,7 @@ flex-direction: column;
         display: grid;
         gap: 50px 30px;
         grid-template-columns: 270px 30rem 20rem;
-        grid-template-rows: 500px   ;
+        grid-template-rows: 400px   ;
         grid-template-areas: 
                               "image image2 words";
                               max-width: 1440px;
@@ -427,6 +427,23 @@ flex-direction: column;
         
     
 }
+
+.image-1{
+   
+    background-image: url('imgs/desktop/image-phone-and-keyboard.jpg');
+   
+   
+    
+    
+    }
+
+    .image-2{
+      
+        background-image: url('imgs/desktop/image-glass-and-keyboard.jpg');
+       
+        
+        
+        }
 
 .words{
            
