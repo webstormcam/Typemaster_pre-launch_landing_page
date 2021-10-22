@@ -431,7 +431,8 @@ flex-direction: column;
 .image-1{
    
     background-image: url('imgs/desktop/image-phone-and-keyboard.jpg');
-   
+   background-position: center;
+
    
     
     
@@ -440,7 +441,7 @@ flex-direction: column;
     .image-2{
       
         background-image: url('imgs/desktop/image-glass-and-keyboard.jpg');
-       
+       background-position: center;
         
         
         }
