@@ -190,7 +190,7 @@ text-align: center;
 display: flex;
 flex-direction: column;
 
-width: 375px;
+width: 100%;
 max-width: 399px;
 }
 
@@ -208,9 +208,10 @@ max-width: 399px;
     padding-right: 1rem;
     color: #7B8BAD;
     line-height: 2rem;
+    max-width: 375px;
 }
 
-@media screen and (min-width:403px) and (max-width: 768px)    {
+@media screen and (min-width:389px) and (max-width: 768px)    {
     .image-1{
         border-radius: 1rem;
     }
@@ -336,6 +337,7 @@ max-width: 399px;
             .words p{
                 padding-right: 4rem;
                 padding-left: 4rem;
+                max-width: none;
             }
 
    
