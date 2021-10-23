@@ -130,6 +130,11 @@ header img{
     display: none;
 }
 
+.small-grey2{
+
+    display: none;
+}
+
 #second_section{
 margin-top: 2rem;
 
@@ -447,10 +452,26 @@ width: 100%;
    
     background-image: url('imgs/desktop/image-phone-and-keyboard.jpg');
    background-position: center;
+   position: relative;
 
    
     
     
+    }
+
+    .small-grey2{
+
+        display: block;
+        width: 15rem;
+        height: 15rem;
+        background-color: #c5cbce;
+        position: absolute;
+       
+        left: -17rem;
+        top: 10rem;
+        border-radius: 1rem;
+       
+        
     }
 
     .image-2{
