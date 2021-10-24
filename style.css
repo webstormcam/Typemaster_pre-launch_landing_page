@@ -242,6 +242,8 @@ width: 100%;
 
 
 
+
+
 .obj h3{
     font-size: 1.5rem;
     font-weight: bolder;
@@ -279,6 +281,22 @@ width: 100%;
     background-color: #F16718;
     padding: 0.8rem;
     border-radius: 0.8rem;
+    
+}
+
+footer{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.greyier{
+    font-weight: bolder;
+ 
+}
+
+.end-grey{
+    color: #7B8BAD;
 }
 
 
@@ -422,18 +440,31 @@ width: 100%;
             .end-wrapper{
    
                 display: grid;
-                gap: 40px;
+                gap: 50px 50px;
                 grid-template-rows: 1fr 1fr ;
                 grid-template-columns: 1fr 1fr;
                 grid-template-areas: 
                                       "obj1 obj2"
                                       "obj3 obj4";
+                                      max-width: none;
+                                    justify-content: center;
+                                    max-width: 1024px;
+                                    padding: 1rem;
                                        
                                    
             
                                       
                 
             
+            }
+
+
+            .obj{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: start;
+                max-width: 399px;
             }
 
             .obj p{
