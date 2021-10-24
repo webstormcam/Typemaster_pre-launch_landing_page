@@ -219,7 +219,7 @@ width: 100%;
 .end-wrapper{
    
     display: grid;
-    gap: 40px;
+    gap: 60px;
     grid-template-rows: 1fr 1fr 1fr 1fr  ;
     grid-template-areas: 
                           "obj1"
