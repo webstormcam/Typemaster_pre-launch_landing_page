@@ -642,7 +642,7 @@ footer{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 360px;
         grid-template-areas: "obj1 obj2 obj3 obj4";
-        margin-top: 4rem;
+        margin-top: 6rem;
         max-width: 1440px;
 
                               
@@ -659,7 +659,7 @@ footer{
         align-items: flex-start;
         text-align: start;
         max-width: none;
-        width: 240px;
+        width: 235px;
     }
 
 
